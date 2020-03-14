@@ -1,0 +1,6 @@
+framework module Pods_FayeObjcToIos {
+  umbrella header "Pods-FayeObjcToIos-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C688A94E8BBB276705B76EA /* Pods_FayeObjcToIos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A88B18B8B296A61861D45DCA /* Pods_FayeObjcToIos.framework */; };
 		4EFF00EC241BED5D005D19EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFF00EB241BED5D005D19EE /* AppDelegate.swift */; };
 		4EFF00EE241BED5D005D19EE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFF00ED241BED5D005D19EE /* SceneDelegate.swift */; };
 		4EFF00F0241BED5D005D19EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFF00EF241BED5D005D19EE /* ViewController.swift */; };
@@ -16,6 +17,21 @@
 		4EFF00FB241BED5D005D19EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EFF00F9241BED5D005D19EE /* LaunchScreen.storyboard */; };
 		4EFF0106241BED5D005D19EE /* FayeObjcToIosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFF0105241BED5D005D19EE /* FayeObjcToIosTests.swift */; };
 		4EFF0111241BED5D005D19EE /* FayeObjcToIosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFF0110241BED5D005D19EE /* FayeObjcToIosUITests.swift */; };
+		4EFF0124241BEDBB005D19EE /* FayeMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EFF0121241BEDBB005D19EE /* FayeMessage.m */; };
+		4EFF0125241BEDBB005D19EE /* FayeClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EFF0123241BEDBB005D19EE /* FayeClient.m */; };
+		4EFF0142241BEDFE005D19EE /* NSData+Serialize.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EFF012C241BEDFD005D19EE /* NSData+Serialize.m */; };
+		4EFF0143241BEDFE005D19EE /* NSDictionary+KeyTranslation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EFF012F241BEDFD005D19EE /* NSDictionary+KeyTranslation.m */; };
+		4EFF0144241BEDFE005D19EE /* NSDate+Serialize.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EFF0131241BEDFD005D19EE /* NSDate+Serialize.m */; };
+		4EFF0145241BEDFE005D19EE /* NSString+Serialize.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EFF0132241BEDFD005D19EE /* NSString+Serialize.m */; };
+		4EFF0146241BEDFE005D19EE /* NSObject+Serialize.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EFF0134241BEDFD005D19EE /* NSObject+Serialize.m */; };
+		4EFF0147241BEDFE005D19EE /* NSString+FayeInflectionSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EFF0138241BEDFD005D19EE /* NSString+FayeInflectionSupport.m */; };
+		4EFF0148241BEDFE005D19EE /* ObjectiveResourceDateFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EFF013A241BEDFE005D19EE /* ObjectiveResourceDateFormatter.m */; };
+		4EFF0149241BEDFE005D19EE /* NSDate-UTC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EFF013E241BEDFE005D19EE /* NSDate-UTC.m */; };
+		4EFF014A241BEDFE005D19EE /* NSObject+PropertySupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EFF0140241BEDFE005D19EE /* NSObject+PropertySupport.m */; };
+		4EFF0152241BF64A005D19EE /* FayeWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EFF0151241BF64A005D19EE /* FayeWrapper.m */; };
+		4EFF0156241BF73A005D19EE /* TRConnectionMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EFF0155241BF73A005D19EE /* TRConnectionMonitor.m */; };
+		6EDCE07A1A2BB7AFE761A048 /* Pods_FayeObjcToIosTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC130D4F906C1B0B3AC31A1D /* Pods_FayeObjcToIosTests.framework */; };
+		CCE7C237612871BC5114A0B6 /* Pods_FayeObjcToIos_FayeObjcToIosUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B91425AED1F9C306A5274D71 /* Pods_FayeObjcToIos_FayeObjcToIosUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +52,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		309CDCB54CB106E2ACADF3D8 /* Pods-FayeObjcToIos-FayeObjcToIosUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FayeObjcToIos-FayeObjcToIosUITests.debug.xcconfig"; path = "Target Support Files/Pods-FayeObjcToIos-FayeObjcToIosUITests/Pods-FayeObjcToIos-FayeObjcToIosUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3D225307CBF7BFBA32DC0881 /* Pods-FayeObjcToIosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FayeObjcToIosTests.debug.xcconfig"; path = "Target Support Files/Pods-FayeObjcToIosTests/Pods-FayeObjcToIosTests.debug.xcconfig"; sourceTree = "<group>"; };
 		4EFF00E8241BED5D005D19EE /* FayeObjcToIos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FayeObjcToIos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EFF00EB241BED5D005D19EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4EFF00ED241BED5D005D19EE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +69,40 @@
 		4EFF010C241BED5D005D19EE /* FayeObjcToIosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FayeObjcToIosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EFF0110241BED5D005D19EE /* FayeObjcToIosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FayeObjcToIosUITests.swift; sourceTree = "<group>"; };
 		4EFF0112241BED5D005D19EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EFF0120241BEDBB005D19EE /* FayeMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FayeMessage.h; sourceTree = "<group>"; };
+		4EFF0121241BEDBB005D19EE /* FayeMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FayeMessage.m; sourceTree = "<group>"; };
+		4EFF0122241BEDBB005D19EE /* FayeClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FayeClient.h; sourceTree = "<group>"; };
+		4EFF0123241BEDBB005D19EE /* FayeClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FayeClient.m; sourceTree = "<group>"; };
+		4EFF012C241BEDFD005D19EE /* NSData+Serialize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Serialize.m"; sourceTree = "<group>"; };
+		4EFF012D241BEDFD005D19EE /* NSString+Serialize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Serialize.h"; sourceTree = "<group>"; };
+		4EFF012E241BEDFD005D19EE /* NSDate+Serialize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Serialize.h"; sourceTree = "<group>"; };
+		4EFF012F241BEDFD005D19EE /* NSDictionary+KeyTranslation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+KeyTranslation.m"; sourceTree = "<group>"; };
+		4EFF0130241BEDFD005D19EE /* NSObject+Serialize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Serialize.h"; sourceTree = "<group>"; };
+		4EFF0131241BEDFD005D19EE /* NSDate+Serialize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Serialize.m"; sourceTree = "<group>"; };
+		4EFF0132241BEDFD005D19EE /* NSString+Serialize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Serialize.m"; sourceTree = "<group>"; };
+		4EFF0133241BEDFD005D19EE /* NSData+Serialize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Serialize.h"; sourceTree = "<group>"; };
+		4EFF0134241BEDFD005D19EE /* NSObject+Serialize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Serialize.m"; sourceTree = "<group>"; };
+		4EFF0135241BEDFD005D19EE /* NSDictionary+KeyTranslation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+KeyTranslation.h"; sourceTree = "<group>"; };
+		4EFF0137241BEDFD005D19EE /* NSString+FayeInflectionSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FayeInflectionSupport.h"; sourceTree = "<group>"; };
+		4EFF0138241BEDFD005D19EE /* NSString+FayeInflectionSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FayeInflectionSupport.m"; sourceTree = "<group>"; };
+		4EFF013A241BEDFE005D19EE /* ObjectiveResourceDateFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectiveResourceDateFormatter.m; sourceTree = "<group>"; };
+		4EFF013B241BEDFE005D19EE /* ObjectiveResourceDateFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectiveResourceDateFormatter.h; sourceTree = "<group>"; };
+		4EFF013D241BEDFE005D19EE /* NSDate-UTC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate-UTC.h"; sourceTree = "<group>"; };
+		4EFF013E241BEDFE005D19EE /* NSDate-UTC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate-UTC.m"; sourceTree = "<group>"; };
+		4EFF0140241BEDFE005D19EE /* NSObject+PropertySupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+PropertySupport.m"; sourceTree = "<group>"; };
+		4EFF0141241BEDFE005D19EE /* NSObject+PropertySupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+PropertySupport.h"; sourceTree = "<group>"; };
+		4EFF014C241BEE6A005D19EE /* FayeObjcToIos-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FayeObjcToIos-Bridging-Header.h"; sourceTree = "<group>"; };
+		4EFF0151241BF64A005D19EE /* FayeWrapper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FayeWrapper.m; sourceTree = "<group>"; };
+		4EFF0153241BF672005D19EE /* FayeWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FayeWrapper.h; sourceTree = "<group>"; };
+		4EFF0154241BF73A005D19EE /* TRConnectionMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRConnectionMonitor.h; sourceTree = "<group>"; };
+		4EFF0155241BF73A005D19EE /* TRConnectionMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRConnectionMonitor.m; sourceTree = "<group>"; };
+		5493A21D6138C70EB233B83D /* Pods-FayeObjcToIos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FayeObjcToIos.debug.xcconfig"; path = "Target Support Files/Pods-FayeObjcToIos/Pods-FayeObjcToIos.debug.xcconfig"; sourceTree = "<group>"; };
+		9D493DB51C6EC33F9A6A2CB3 /* Pods-FayeObjcToIos-FayeObjcToIosUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FayeObjcToIos-FayeObjcToIosUITests.release.xcconfig"; path = "Target Support Files/Pods-FayeObjcToIos-FayeObjcToIosUITests/Pods-FayeObjcToIos-FayeObjcToIosUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A88B18B8B296A61861D45DCA /* Pods_FayeObjcToIos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FayeObjcToIos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B91425AED1F9C306A5274D71 /* Pods_FayeObjcToIos_FayeObjcToIosUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FayeObjcToIos_FayeObjcToIosUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC130D4F906C1B0B3AC31A1D /* Pods_FayeObjcToIosTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FayeObjcToIosTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2D186B42C05C51B1020ADB1 /* Pods-FayeObjcToIosTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FayeObjcToIosTests.release.xcconfig"; path = "Target Support Files/Pods-FayeObjcToIosTests/Pods-FayeObjcToIosTests.release.xcconfig"; sourceTree = "<group>"; };
+		C2FF0F7E396C504353BE5221 /* Pods-FayeObjcToIos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FayeObjcToIos.release.xcconfig"; path = "Target Support Files/Pods-FayeObjcToIos/Pods-FayeObjcToIos.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C688A94E8BBB276705B76EA /* Pods_FayeObjcToIos.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EDCE07A1A2BB7AFE761A048 /* Pods_FayeObjcToIosTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,19 +126,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCE7C237612871BC5114A0B6 /* Pods_FayeObjcToIos_FayeObjcToIosUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E079A1BAF29C6B012B499CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A88B18B8B296A61861D45DCA /* Pods_FayeObjcToIos.framework */,
+				B91425AED1F9C306A5274D71 /* Pods_FayeObjcToIos_FayeObjcToIosUITests.framework */,
+				BC130D4F906C1B0B3AC31A1D /* Pods_FayeObjcToIosTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4EFF00DF241BED5D005D19EE = {
 			isa = PBXGroup;
 			children = (
+				4EFF011E241BEDA6005D19EE /* Libs */,
 				4EFF00EA241BED5D005D19EE /* FayeObjcToIos */,
 				4EFF0104241BED5D005D19EE /* FayeObjcToIosTests */,
 				4EFF010F241BED5D005D19EE /* FayeObjcToIosUITests */,
 				4EFF00E9241BED5D005D19EE /* Products */,
+				CE7017B681D725C268159281 /* Pods */,
+				1E079A1BAF29C6B012B499CD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +169,7 @@
 		4EFF00EA241BED5D005D19EE /* FayeObjcToIos */ = {
 			isa = PBXGroup;
 			children = (
+				4EFF0150241BF636005D19EE /* Faye */,
 				4EFF00EB241BED5D005D19EE /* AppDelegate.swift */,
 				4EFF00ED241BED5D005D19EE /* SceneDelegate.swift */,
 				4EFF00EF241BED5D005D19EE /* ViewController.swift */,
@@ -109,6 +178,7 @@
 				4EFF00F9241BED5D005D19EE /* LaunchScreen.storyboard */,
 				4EFF00FC241BED5D005D19EE /* Info.plist */,
 				4EFF00F4241BED5D005D19EE /* FayeObjcToIos.xcdatamodeld */,
+				4EFF014C241BEE6A005D19EE /* FayeObjcToIos-Bridging-Header.h */,
 			);
 			path = FayeObjcToIos;
 			sourceTree = "<group>";
@@ -131,6 +201,116 @@
 			path = FayeObjcToIosUITests;
 			sourceTree = "<group>";
 		};
+		4EFF011E241BEDA6005D19EE /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				4EFF011F241BEDB1005D19EE /* Faye */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		4EFF011F241BEDB1005D19EE /* Faye */ = {
+			isa = PBXGroup;
+			children = (
+				4EFF0122241BEDBB005D19EE /* FayeClient.h */,
+				4EFF0123241BEDBB005D19EE /* FayeClient.m */,
+				4EFF0120241BEDBB005D19EE /* FayeMessage.h */,
+				4EFF0121241BEDBB005D19EE /* FayeMessage.m */,
+				4EFF012A241BEDDA005D19EE /* libs */,
+			);
+			path = Faye;
+			sourceTree = "<group>";
+		};
+		4EFF012A241BEDDA005D19EE /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				4EFF013C241BEDFE005D19EE /* NSDate+UTC */,
+				4EFF013F241BEDFE005D19EE /* NSObject+PropertySupport */,
+				4EFF0136241BEDFD005D19EE /* NSString+FayeInflectionSupport */,
+				4EFF0139241BEDFD005D19EE /* ObjectiveResourceDateFormatter */,
+				4EFF012B241BEDFD005D19EE /* Serialize */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+		4EFF012B241BEDFD005D19EE /* Serialize */ = {
+			isa = PBXGroup;
+			children = (
+				4EFF012C241BEDFD005D19EE /* NSData+Serialize.m */,
+				4EFF012D241BEDFD005D19EE /* NSString+Serialize.h */,
+				4EFF012E241BEDFD005D19EE /* NSDate+Serialize.h */,
+				4EFF012F241BEDFD005D19EE /* NSDictionary+KeyTranslation.m */,
+				4EFF0130241BEDFD005D19EE /* NSObject+Serialize.h */,
+				4EFF0131241BEDFD005D19EE /* NSDate+Serialize.m */,
+				4EFF0132241BEDFD005D19EE /* NSString+Serialize.m */,
+				4EFF0133241BEDFD005D19EE /* NSData+Serialize.h */,
+				4EFF0134241BEDFD005D19EE /* NSObject+Serialize.m */,
+				4EFF0135241BEDFD005D19EE /* NSDictionary+KeyTranslation.h */,
+			);
+			path = Serialize;
+			sourceTree = "<group>";
+		};
+		4EFF0136241BEDFD005D19EE /* NSString+FayeInflectionSupport */ = {
+			isa = PBXGroup;
+			children = (
+				4EFF0137241BEDFD005D19EE /* NSString+FayeInflectionSupport.h */,
+				4EFF0138241BEDFD005D19EE /* NSString+FayeInflectionSupport.m */,
+			);
+			path = "NSString+FayeInflectionSupport";
+			sourceTree = "<group>";
+		};
+		4EFF0139241BEDFD005D19EE /* ObjectiveResourceDateFormatter */ = {
+			isa = PBXGroup;
+			children = (
+				4EFF013A241BEDFE005D19EE /* ObjectiveResourceDateFormatter.m */,
+				4EFF013B241BEDFE005D19EE /* ObjectiveResourceDateFormatter.h */,
+			);
+			path = ObjectiveResourceDateFormatter;
+			sourceTree = "<group>";
+		};
+		4EFF013C241BEDFE005D19EE /* NSDate+UTC */ = {
+			isa = PBXGroup;
+			children = (
+				4EFF013D241BEDFE005D19EE /* NSDate-UTC.h */,
+				4EFF013E241BEDFE005D19EE /* NSDate-UTC.m */,
+			);
+			path = "NSDate+UTC";
+			sourceTree = "<group>";
+		};
+		4EFF013F241BEDFE005D19EE /* NSObject+PropertySupport */ = {
+			isa = PBXGroup;
+			children = (
+				4EFF0140241BEDFE005D19EE /* NSObject+PropertySupport.m */,
+				4EFF0141241BEDFE005D19EE /* NSObject+PropertySupport.h */,
+			);
+			name = "NSObject+PropertySupport";
+			path = "../../../../FayeObjC/lib/NSObject+PropertySupport";
+			sourceTree = "<group>";
+		};
+		4EFF0150241BF636005D19EE /* Faye */ = {
+			isa = PBXGroup;
+			children = (
+				4EFF0151241BF64A005D19EE /* FayeWrapper.m */,
+				4EFF0153241BF672005D19EE /* FayeWrapper.h */,
+				4EFF0154241BF73A005D19EE /* TRConnectionMonitor.h */,
+				4EFF0155241BF73A005D19EE /* TRConnectionMonitor.m */,
+			);
+			path = Faye;
+			sourceTree = "<group>";
+		};
+		CE7017B681D725C268159281 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5493A21D6138C70EB233B83D /* Pods-FayeObjcToIos.debug.xcconfig */,
+				C2FF0F7E396C504353BE5221 /* Pods-FayeObjcToIos.release.xcconfig */,
+				309CDCB54CB106E2ACADF3D8 /* Pods-FayeObjcToIos-FayeObjcToIosUITests.debug.xcconfig */,
+				9D493DB51C6EC33F9A6A2CB3 /* Pods-FayeObjcToIos-FayeObjcToIosUITests.release.xcconfig */,
+				3D225307CBF7BFBA32DC0881 /* Pods-FayeObjcToIosTests.debug.xcconfig */,
+				C2D186B42C05C51B1020ADB1 /* Pods-FayeObjcToIosTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +318,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4EFF0115241BED5D005D19EE /* Build configuration list for PBXNativeTarget "FayeObjcToIos" */;
 			buildPhases = (
+				34F488CF024C7D2410D6F63B /* [CP] Check Pods Manifest.lock */,
 				4EFF00E4241BED5D005D19EE /* Sources */,
 				4EFF00E5241BED5D005D19EE /* Frameworks */,
 				4EFF00E6241BED5D005D19EE /* Resources */,
+				CF61FEC762ED694678D5DC1F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +337,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4EFF0118241BED5D005D19EE /* Build configuration list for PBXNativeTarget "FayeObjcToIosTests" */;
 			buildPhases = (
+				AC6A41E8DF08E5290D53D5A3 /* [CP] Check Pods Manifest.lock */,
 				4EFF00FD241BED5D005D19EE /* Sources */,
 				4EFF00FE241BED5D005D19EE /* Frameworks */,
 				4EFF00FF241BED5D005D19EE /* Resources */,
@@ -173,9 +356,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4EFF011B241BED5D005D19EE /* Build configuration list for PBXNativeTarget "FayeObjcToIosUITests" */;
 			buildPhases = (
+				70B05D54A2B0E0974364BDCF /* [CP] Check Pods Manifest.lock */,
 				4EFF0108241BED5D005D19EE /* Sources */,
 				4EFF0109241BED5D005D19EE /* Frameworks */,
 				4EFF010A241BED5D005D19EE /* Resources */,
+				78E4ADD8E5538E26231BF2EF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -199,6 +384,7 @@
 				TargetAttributes = {
 					4EFF00E7241BED5D005D19EE = {
 						CreatedOnToolsVersion = 11.3.1;
+						LastSwiftMigration = 1130;
 					};
 					4EFF0100241BED5D005D19EE = {
 						CreatedOnToolsVersion = 11.3.1;
@@ -257,15 +443,131 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		34F488CF024C7D2410D6F63B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FayeObjcToIos-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70B05D54A2B0E0974364BDCF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FayeObjcToIos-FayeObjcToIosUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78E4ADD8E5538E26231BF2EF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FayeObjcToIos-FayeObjcToIosUITests/Pods-FayeObjcToIos-FayeObjcToIosUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FayeObjcToIos-FayeObjcToIosUITests/Pods-FayeObjcToIos-FayeObjcToIosUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FayeObjcToIos-FayeObjcToIosUITests/Pods-FayeObjcToIos-FayeObjcToIosUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC6A41E8DF08E5290D53D5A3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FayeObjcToIosTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF61FEC762ED694678D5DC1F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FayeObjcToIos/Pods-FayeObjcToIos-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FayeObjcToIos/Pods-FayeObjcToIos-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FayeObjcToIos/Pods-FayeObjcToIos-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4EFF00E4241BED5D005D19EE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				4EFF00F0241BED5D005D19EE /* ViewController.swift in Sources */,
+				4EFF0149241BEDFE005D19EE /* NSDate-UTC.m in Sources */,
+				4EFF0124241BEDBB005D19EE /* FayeMessage.m in Sources */,
+				4EFF0145241BEDFE005D19EE /* NSString+Serialize.m in Sources */,
+				4EFF0143241BEDFE005D19EE /* NSDictionary+KeyTranslation.m in Sources */,
 				4EFF00EC241BED5D005D19EE /* AppDelegate.swift in Sources */,
+				4EFF0125241BEDBB005D19EE /* FayeClient.m in Sources */,
+				4EFF0148241BEDFE005D19EE /* ObjectiveResourceDateFormatter.m in Sources */,
+				4EFF0156241BF73A005D19EE /* TRConnectionMonitor.m in Sources */,
+				4EFF0147241BEDFE005D19EE /* NSString+FayeInflectionSupport.m in Sources */,
+				4EFF0146241BEDFE005D19EE /* NSObject+Serialize.m in Sources */,
+				4EFF0144241BEDFE005D19EE /* NSDate+Serialize.m in Sources */,
+				4EFF0142241BEDFE005D19EE /* NSData+Serialize.m in Sources */,
 				4EFF00EE241BED5D005D19EE /* SceneDelegate.swift in Sources */,
 				4EFF00F6241BED5D005D19EE /* FayeObjcToIos.xcdatamodeld in Sources */,
+				4EFF0152241BF64A005D19EE /* FayeWrapper.m in Sources */,
+				4EFF014A241BEDFE005D19EE /* NSObject+PropertySupport.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,10 +738,13 @@
 		};
 		4EFF0116241BED5D005D19EE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5493A21D6138C70EB233B83D /* Pods-FayeObjcToIos.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 75BBTA9VPU;
+				GCC_NO_COMMON_BLOCKS = NO;
 				INFOPLIST_FILE = FayeObjcToIos/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -447,6 +752,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.uuttff8.FayeObjcToIos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FayeObjcToIos/FayeObjcToIos-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -454,10 +761,13 @@
 		};
 		4EFF0117241BED5D005D19EE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2FF0F7E396C504353BE5221 /* Pods-FayeObjcToIos.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 75BBTA9VPU;
+				GCC_NO_COMMON_BLOCKS = NO;
 				INFOPLIST_FILE = FayeObjcToIos/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -465,6 +775,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.uuttff8.FayeObjcToIos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FayeObjcToIos/FayeObjcToIos-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -472,6 +783,7 @@
 		};
 		4EFF0119241BED5D005D19EE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D225307CBF7BFBA32DC0881 /* Pods-FayeObjcToIosTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -494,6 +806,7 @@
 		};
 		4EFF011A241BED5D005D19EE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2D186B42C05C51B1020ADB1 /* Pods-FayeObjcToIosTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -516,6 +829,7 @@
 		};
 		4EFF011C241BED5D005D19EE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 309CDCB54CB106E2ACADF3D8 /* Pods-FayeObjcToIos-FayeObjcToIosUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -536,6 +850,7 @@
 		};
 		4EFF011D241BED5D005D19EE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D493DB51C6EC33F9A6A2CB3 /* Pods-FayeObjcToIos-FayeObjcToIosUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
